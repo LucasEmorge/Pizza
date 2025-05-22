@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5dc;
+border-color: #0d487b;
+   align-items: center;
+   padding: 10px 20px;
+   width: 100%;
+}
+body {
+     background-color: #f5f5dc;
+     font-family: 'MinhaFonte2', sans-serif;
+}
+.caixa1 {
+  width: 20%;
+  text-align: center;
+  background-color: #f5f5dc;
+}
+
+.caixa2 {
+  background-color: #f5f5dc;
+  padding: 20px;
+  width: 80%;
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  gap: 250px;
+  margin-left: 10%;
+}
+.caixa1 img {
+    height: 208px;
+    padding: 0;
+    width: 80%;
+}
+.caixa2 a{
+    text-decoration: none;
+    color:  #0d487b;
+    font-family: 'MinhaFonte', sans-serif;
+}
+.caixa2 {
+    color: #0d487b;
+       font-family: 'MinhaFonte', sans-serif;
+}
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('Fontes/saira-semi-bold.ttf.ttf') format('truetype'); /* Substitua pelo formato correto */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MinhaFonte2';
+    src: url('Fontes/encode-sans-narrow-medium.ttf') format('truetype'); /* Substitua pelo formato correto */
+    font-weight: normal;
+    font-style: normal;
+}
+.Retangulo {
+    width: 100%;
+    height: 50px;
+background-color: #0d487b;
+}
+.Pizza {
+ text-align: center;
+    background-color:  #0d487b;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: #f5f5dc;
+    font-size: 20px;
+    padding: 12px 24px;
+    border: 2px solid transparent;
+    transition:all 0.3s;
+}
+
+.Pizza img{
+    height: 316px;
+    transition: all 0.5s ;
+    cursor: pointer;
+}
+.Pizza img:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5s);
+    border: 2px solid #ff7f00;
+    border-radius: 30px;
+}
+.promoção {
+      display: flex;
+     background-color: #f5f5dc;
+   align-items: center;
+   padding: 10px 20px;
+gap: 20px;
+}
+.Texto {
+    font-family: 'MinhaFonte2';
+    font-size: 80px;
+    color: #0d487b;
+    margin-left: 5%;
+    text-align: center
+}
+.Comprar {
+    background-color:  #ff7f00;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 12px 24px ;
+    border: 2px solid transparent;
+    align-items: right;
+    font-weight: bold;
+    transition: all 0.3s;
+    justify-content: right;
+    text-align: center;
+}
+.Comprar:Hover {
+border: 2px solid #0d487b;
+border-radius: 100%;
+border-radius: 30px;
+}
+.containertexto {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+}
+.Retangulo3 {
+    width: 100%;
+    height: 80px;
+background-color: #0d487b;
+color: #f5f5dc;
+text-align: center;
+}
+.Retangulo2 {
+    width: 100%;
+    height: 25px;
+background-color: #0d487b;
+}
+.espaço {
+    margin-top: 18%;
+}
+.espaço2 {
+    margin-top: 25%;
+}
